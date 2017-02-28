@@ -32,8 +32,8 @@ body  {background-attachment:fixed}
 #h2 
 {
 	position:absolute;
-	top:125px;
-	left:500px
+	top:140px;
+	left:10px
 }
 #pre1 
 {
@@ -50,9 +50,8 @@ h1
 .navbar navbar-default
 {
 Background-color: rgba(173, 57, 22, 0)
-}	
-
-
-
-
-
+}
+#navbar-1
+{
+text-align: center
+}

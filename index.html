@@ -33,7 +33,6 @@ href="style.css"/>
 </title>
 </head>
 <body background="image.jpg" text="black" link="black" vlink="black" alink="black" id="body">
-<font size="6">
 <i>
 <div class="container-fluid">
 <div class="row">
@@ -41,7 +40,7 @@ href="style.css"/>
 1-B GJP
 </i>
 </h1>
-<div class="navbar navbar-default">
+<div class="navbar navbar-default" id="navbar-1>
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
@@ -65,18 +64,43 @@ href="style.css"/>
   </div>
 </div>
 <br>
-<div id="content1">
-<pre>
-<img src="Images/foto.jpg" width="624" height="411" vspace="10 hspace="10" class="images1" id="image1" draggable="true"> <img src="Images/trida.jpg" width="686" height="410" scr="Images/foto.jpg" vspace="10 hspace="10" class="images1" id="image2">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Указатели -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+  <!-- Контент слайда (slider wrap)-->
+  <div class="carousel-inner">
+    <div class="item active">
+     <img src="Images/foto.jpg">
+    </div>
+	<div class="item">
+	<img src="Images/trida.jpg">
+	</div>
+  </div>
+  <!-- Элементы управления -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
 </div>
 <br>
-<div id="content2">
-<pre>
-TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
-TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
-TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
-TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
-</pre>
+<div class="container-fluid" style="font-size: 25px;text-align:left">
+<div class="row">
+<p>
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+</p>
+</div>
 </div>
 </FONT>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -87,8 +111,9 @@ TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
 <br>
 <br>
 <br>
-<hr size="1" color="black">
+<div class="container-fluid">
+<hr size="5" color="black" style="height=;height: 2px;">
 &copy;2016&nbsp; Alexey Pavlov
-<p>
+</p>
 </body>
 </html>
